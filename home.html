@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NInja Arashi</title>
+    <link rel="stylesheet" href="homeStyle.css" />
+    <Link rel="icon" href="images/ninja.png"/>
+  </head>
+  <body class="homeBackground" id="homeBackground" onkeyup="controller(event);" onload="level1();">
+  
+    
+    <div class="cards"  style="padding-left: 150px;">
+      <div class="card">
+        <img src="resources/loadingscreen/12.png" alt="Image description" style="width:400px; height: 300px;">
+        <div class="card__content">
+          <p class="card__title">Level 01</p>
+          <p class="card__description">Enter Button : Run</p>
+          <p class="card__description">Space Button : Jump</p>
+
+          <button class="btn"><a href="#" id="play1" onclick="play(1);" class="play">Play</a></button>
+        </div>
+      </div>
+     
+      <div class="card" style="margin-left: 50px;">
+        <img src="resources/loadingscreen/12.png" alt="Image description" style="width:400px; height: 300px;">
+        <div class="card__content">
+          <p class="card__title">Level 02</p>
+          <p class="card__description">ArrowRight Button : Attack</p>
+
+          <button class="btn"><a href="#" id="play2" onclick="play(2);" class="play">Play</a></button>
+          
+        </div>
+      </div>
+
+      <div class="card" style="margin-left: 50px;">
+        <img src="resources/loadingscreen/12.png" alt="Image description" style="width:400px; height: 300px;">
+        <div class="card__content">
+            <p class="card__title">Level 03</p>
+            <p class="card__description">ArrowLeft Button : Shoot</p>
+
+            <button class="btn"><a href="#" id="play3" onclick="play(3);" class="play">Play</a></button>
+        </div>
+    </div>
+    
+
+    </div>
+        
+  
+
+    <script src="script.js"></script>
+  </body>
+</html>

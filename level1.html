@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NInja Arashi</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="homeStyle.css" />
+    <Link rel="icon" href="images/ninja.png"/>
+  </head>
+  <body class="background" id="background" onkeyup="controller(event);" onload="level1();">
+
+ <div id="level1">
+  <div style="display: flex;">
+    <div class="marks" id="score">0</div>
+  </div>
+  <img src="resources/idle/NEWNJIDLE1.png" class="boy" id="boy" alt="boy"/> 
+  
+</div> 
+<div class="scard" style="display: none;" id="scard">
+  <h1 id="title">You Won</h1>
+  <img src="resources/win.gif" style="width: 510px;" id="gif"/> 
+  <div style="margin-left: 210px; margin-top: 10px;">
+    <sbutton  id="try"><a href="level1.html" style="text-decoration: none;" id="trya">Try Again</a></sbutton>
+  <br/>
+  <sbutton  id="home"><a href="home.html" style="text-decoration: none;">Go to Home</a></sbutton>
+  </div>
+
+  
+</div>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>

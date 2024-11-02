@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NInja Arashi</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="homeStyle.css" />
+    <Link rel="icon" href="images/ninja.png"/>
+  </head>
+  <body class="l3background" id="background" onkeyup="controller(event);" onload="loadlevel3();">
+
+
+<div id="level2">
+  
+ <div style="display: flex; flex-direction: row;width: 10000px;">
+  <div class="score">
+    <div class="score1" style="display: flex; justify-content: center;align-items: center;">
+      <img src="resources/coins/Gold_1.png" style="width: 65px;display: flex;align-items: center;"/>
+    </div>
+    <div class="scoreCoins" id="score2"></div>
+  </div>
+
+  <div class="score" style="margin-left: 1050px;">
+    <div class="score1" style="display: flex; justify-content: center;align-items: center;">
+      <img src="resources/idle/NEWNJIDLE1.png" style="width: 210px;"/>
+    </div>
+    <div class="nscore2" id="nscore2"></div>
+  </div>
+
+
+  <img src="resources/idle/NEWNJIDLE1.png" class="boy" id="boy" alt="boy"/> 
+ 
+
+
+
+
+<div class="scard" style="display: none;" id="scard">
+  <h1 id="title">You Won</h1>
+  <img src="resources/win.gif" style="width: 510px;" id="gif"/> 
+  <div style="margin-left: 210px; margin-top: 10px;">
+    <sbutton  id="try"><a href="level3.html" style="text-decoration: none;" id="trya">Try Again</a></sbutton>
+  <br/>
+  <sbutton  id="home"><a href="home.html" style="text-decoration: none;">Go to Home</a></sbutton>
+  </div>
+</div>
+
+    <script src="script3.js"></script>
+  </body>
+</html>
